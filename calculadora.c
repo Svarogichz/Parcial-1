@@ -26,10 +26,13 @@ int main() {
 }
 
 void suma() {
+
     float a, b;
-    printf("Ingrese dos números para sumar: ");
+
+    printf("Ingresa dos numeros para sumar: ");
     scanf("%f %f", &a, &b);
-    printf("Resultado: %.2f\n", a + b);
+
+    printf("Resultado suma: %.2f\n", a + b);
 }
 
 float resta(float a, float b) {
@@ -38,10 +41,13 @@ float resta(float a, float b) {
 }
 
 void multiplicacion() {
+
     float a, b;
-    printf("Ingrese dos números para multiplicar: ");
+
+    printf("\nIngresa dos numeros para multiplicar: ");
     scanf("%f %f", &a, &b);
-    printf("Resultado: %.2f\n", a * b);
+
+    printf("Resultado multiplicacion: %.2f\n", a * b);
 }
 
 float division(float a, float b) {

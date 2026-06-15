@@ -21,6 +21,7 @@ int main() {
 }
 
 void suma() {
+
     float a, b;
 
     printf("Ingrese dos numeros para sumar: ");
